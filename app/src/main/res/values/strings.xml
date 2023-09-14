@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Jogo cromático</string>
+    <string name="txt_name">Nome do Jogo</string>
+    <string name="txt_musica">Jogo inspirado nas musicas:\n
+Paint it black - Rolling Stones\n
+Lama ao caos - Chico Science e Nação Zumbi</string>
+    <string name="txt_intro">      insira nome do jogo é um jogo shooter estilo 2D desenvolvido pela dupla Guilherme Roizentul e Mariana Akemi, desenvolvido inspirado nas músicas Paint it black e Lama ao caos.
+\n      Nesse cenário temático cyberpunk, o jogador controla a protagonista Mizu que se vê rodeada de inimigos monocromáticos, mas com suas habilidades e sua arma neon, ela consegue derrotar seus inimigos que a atacam.
+</string>
+    <string name="txt_desen">Desenvolvimento</string>
+    <string name="txt_desen_txt">      A ideia surgiu principalmente da música paint it black, pelo seu refrão de querer colorir tudo de preto, então pensamos, por que não fazer um jogo sobre colorir inimigos e trazer cores até um mundo incolor. Da lama ao caos vem dessa ideia de pintar o mundo e mudar o comum do local, que é o monocromático.
+\n      As principais influências para o jogo foram insira jogos</string>
+    <string name="txt_des">Design</string>
+    <string name="txt_des_txt">      A protagonista Mizu, vem do japonês 水 significando água, que simboliza a purificação, origem da vida e força, além de trazer a serenidade e a tranquilidade do azul, que muda completamente com o design robótico mais agressivo
+\n      O design da personagem foi bastante inspirado por ciborgues e robôs futuristas</string>
+    <string name="txt_mec">Mecânicas</string>
+    <string name="txt_mec_txt">      As mecânicas são simples, andar e atirar, mas a ideia que queríamos trazer é que cada inimigo traz uma cor, algum significado especial e a mistura deles.</string>
+    <string name="txt_monocro">Cores Monocromáticas</string>
+    <string name="txt_cinza">Cinza</string>
+    <string name="txt_cinza_txt">      A cor do tédio, ausência de emoção pois é uma cor neutra, sem capacidade de estimular ou tranquilizar, frequentemente caracterizada como enfadonha ou sem movimento.</string>
+    <string name="txt_preto">Preto</string>
+    <string name="txt_preto_txt">      A cor do respeito, morte, medo e solidão, classificada como a ausência de cor ou ausência de luz, essa cor absorve os comprimentos de onda do espectro solar.</string>
+    <string name="txt_cro">Cores Cromáticas</string>
+    <string name="txt_vermelho">Vermelho</string>
+    <string name="txt_vermelho_txt">      A cor da paixão e energia associada ao poder, à guerra, ao perigo e à violência. O vermelho é a cor do elemento fogo, do sangue e do coração humano.</string>
+    <string name="txt_laranja">Laranja</string>
+    <string name="txt_laranja_txt">      A cor da alegria, vitalidade , prosperidade e sucesso sendo o equilíbrio entre a sabedoria do amarelo com a paixão e intensidade do vermelho, sendo uma versão mais amigável do vermelho.
+</string>
+    <string name="txt_amarelo">Amarelo</string>
+    <string name="txt_amarelo_txt">      A cor da luz, otimismo, descontração e alegria, simbolizando sol, verão prosperidade e felicidade inspirando criatividade e estimulando raciocínio.
+</string>
+    <string name="txt_verde">Verde</string>
+    <string name="txt_verde_txt">      A cor da esperança, saúde, vitalidade e liberdade simbolizando natureza, dinheiro e juventude conectado muito ao crescimento e renovação.
+</string>
+    <string name="txt_azul">Azul</string>
+    <string name="txt_azul_txt">      A cor da tranquilidade, harmonia e serenidade mas também pode significar frieza, depressão e monotonia simbolizando a água, o céu e o infinito.
+</string>
+    <string name="txt_roxo">Roxo</string>
+    <string name="txt_roxo_txt">      A cor da espiritualidade, magia e mistério, transmitindo o sentimento de tristeza e introspecção, junto com a libertação de inquietações é a cor da transformação.
+</string>
+    <string name="txt_rosa">Rosa</string>
+    <string name="txt_rosa_txt">      A cor do romantismo, ternura e ingenuidade associado a beleza, suavidade, delicadeza, fragilidade.
+</string>
+</resources>

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img"
+    >
+
+    <TextView
+        android:id="@+id/quadrado"
+        android:layout_width="1000px"
+        android:layout_height="2150px"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/quadrado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="1000px"
+        android:layout_height="2150px"
+        app:layout_constraintBottom_toBottomOf="@+id/quadrado"
+        app:layout_constraintEnd_toEndOf="@+id/quadrado"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/quadrado"
+        app:layout_constraintTop_toTopOf="@+id/quadrado"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="1000px"
+            android:layout_height="2150px"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="900px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="16dp"
+                android:text="Nome do Jogo"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                />
+            <TextView
+                android:id="@+id/txt_musica"
+                android:layout_width="900px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="Jogo inspirado nas musicas:\n
+Paint it black - Rolling Stones\n
+Lama ao caos - Chico Science e Nação Zumbi"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                />
+            <ImageView
+                android:id="@+id/img_jogo"
+                android:layout_width="900px"
+                android:layout_height="500px"
+                android:layout_marginStart="18dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/txt_intro"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="      insira nome do jogo é um jogo shooter estilo 2D desenvolvido pela dupla Guilherme Roizentul e Mariana Akemi, desenvolvido inspirado nas músicas Paint it black e Lama ao caos.
+\n      Nesse cenário temático cyberpunk, o jogador controla a protagonista Mizu que se vê rodeada de inimigos monocromáticos, mas com suas habilidades e sua arma neon, ela consegue derrotar seus inimigos que a atacam.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:id="@+id/txt_desen"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Desenvolvimento"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/txt_desen_txt"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:text="      A ideia surgiu principalmente da música paint it black, pelo seu refrão de querer colorir tudo de preto, então pensamos, por que não fazer um jogo sobre colorir inimigos e trazer cores até um mundo incolor. Da lama ao caos vem dessa ideia de pintar o mundo e mudar o comum do local, que é o monocromático.
+\n      As principais influências para o jogo foram insira jogos
+"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_des"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Design"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/txt_des_txt"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:text="      A protagonista Mizu, vem do japonês 水 significando água, que simboliza a purificação, origem da vida e força, além de trazer a serenidade e a tranquilidade do azul, que muda completamente com o design robótico mais agressivo
+\n      O design da personagem foi bastante inspirado por ciborgues e robôs futuristas"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                />
+
+            <ImageView
+                android:id="@+id/img_sprites"
+                android:layout_width="900px"
+                android:layout_height="500px"
+                android:layout_marginStart="18dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txt_mec"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Mecânicas"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/txt_mec_txt"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:text="      As mecânicas são simples, andar e atirar, mas a ideia que queríamos trazer é que cada inimigo traz uma cor, algum significado especial e a mistura deles."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_monocro"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Cores Monocromáticas"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:id="@+id/txt_cinza"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Cinza"
+                android:textColor="#B5B5B5"
+                android:textSize="22sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/txt_cinza_txt"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:text="      A cor do tédio, ausência de emoção pois é uma cor neutra, sem capacidade de estimular ou tranquilizar, frequentemente caracterizada como enfadonha ou sem movimento."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_preto"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Preto"
+                android:textColor="#575757"
+                android:textSize="22sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/txt_preto_txt"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:text="      A cor do respeito, morte, medo e solidão, classificada como a ausência de cor ou ausência de luz, essa cor absorve os comprimentos de onda do espectro solar."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_cro"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Cores Cromáticas"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:id="@+id/txt_vermelho"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Vermelho"
+                android:textColor="#FF0000"
+                android:textSize="22sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/txt_vermelho_txt"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:text="      A cor da paixão e energia associada ao poder, à guerra, ao perigo e à violência. O vermelho é a cor do elemento fogo, do sangue e do coração humano.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_laranja"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Laranja"
+                android:textColor="#FF6F00"
+                android:textSize="22sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/txt_laranja_txt"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:text="      A cor da alegria, vitalidade , prosperidade e sucesso sendo o equilíbrio entre a sabedoria do amarelo com a paixão e intensidade do vermelho, sendo uma versão mais amigável do vermelho.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_amarelo"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Amarelo"
+                android:textColor="#FFC800"
+                android:textSize="22sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/txt_amarelo_txt"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:text="      A cor da luz, otimismo, descontração e alegria, simbolizando sol, verão prosperidade e felicidade inspirando criatividade e estimulando raciocínio.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_verde"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Verde"
+                android:textColor="#4CFF00"
+                android:textSize="22sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/txt_verde_txt"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:text="      A cor da esperança, saúde, vitalidade e liberdade simbolizando natureza, dinheiro e juventude conectado muito ao crescimento e renovação.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_azul"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Azul"
+                android:textColor="#FF00FFEA"
+                android:textSize="22sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/txt_azul_txt"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:text="      A cor da tranquilidade, harmonia e serenidade mas também pode significar frieza, depressão e monotonia simbolizando a água, o céu e o infinito.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_roxo"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Roxo"
+                android:textColor="#8000FF"
+                android:textSize="22sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/txt_roxo_txt"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:text="      A cor da espiritualidade, magia e mistério, transmitindo o sentimento de tristeza e introspecção, junto com a libertação de inquietações é a cor da transformação.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_rosa"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Rosa"
+                android:textColor="#FFF700FF"
+                android:textSize="22sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/txt_rosa_txt"
+                android:layout_width="950px"
+                android:layout_height="wrap_content"
+                android:text="      A cor do romantismo, ternura e ingenuidade associado a beleza, suavidade, delicadeza, fragilidade.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="16dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
